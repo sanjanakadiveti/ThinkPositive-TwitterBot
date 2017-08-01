@@ -1,0 +1,17 @@
+{
+	"name": "Hello Sanjana.",
+	"version": "1.0",
+	"description": "My first Chrome Extension.",
+	
+	//tells Chrome that we're making an extension that will add a button
+	//to the toolbar. 
+	"browser action": {
+
+		//Adds an icon to the button. Icon file must be in the 
+		//same folder as manifest.json
+		"default_icon": "worldIcon.png",
+
+		//file that it points to to display/work
+		"popup": "popup.html"
+	}
+}

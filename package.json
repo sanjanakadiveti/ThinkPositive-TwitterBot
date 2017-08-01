@@ -1,0 +1,19 @@
+{
+  "name": "nmpdemo",
+  "version": "1.0.0",
+  "description": "nmp intro",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trial",
+    "twitter"
+  ],
+  "author": "Sanjana Kadiveti",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
